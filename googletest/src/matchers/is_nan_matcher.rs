@@ -19,6 +19,7 @@ use num_traits::float::Float;
 use std::fmt::Debug;
 
 /// Matches a floating point value which is NaN.
+// TODO: Add some examples.
 pub fn is_nan<T: Float + Debug>() -> impl Matcher<T> {
     IsNanMatcher
 }

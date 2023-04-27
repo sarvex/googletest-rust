@@ -65,8 +65,10 @@ use std::fmt::Debug;
 /// verify_that(actual, eq(&expected))?; // Compiles
 /// ```
 ///
+// TODO: Replace this URL with a more canonical reference.
 /// You can find the standard library PartialEq implementation in
 /// <https://doc.rust-lang.org/core/cmp/trait.PartialEq.html#implementors>
+// TODO: Add link to StrMatcherConfigurator docs.
 pub fn eq<T>(expected: T) -> EqMatcher<T> {
     EqMatcher { expected }
 }

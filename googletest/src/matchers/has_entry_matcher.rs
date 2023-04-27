@@ -45,6 +45,7 @@ use std::hash::Hash;
 /// # should_fail_2().unwrap_err();
 /// ```
 ///
+// TODO: Blockquote? (Generally let's make formatting of notes consistent)
 /// Note: One could obtain the same effect by collecting entries into a `Vec`
 /// and using `contains`:
 ///
